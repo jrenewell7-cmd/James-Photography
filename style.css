@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -5,7 +6,7 @@
 }
 
 body {
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: #111;
 }
 
@@ -38,7 +39,7 @@ HOME PAGE
 
 .name {
     color: white;
-    font-size: 2rem;
+    font-size: 3.2rem;
     font-weight: 500;
     margin-bottom: 40px;
     letter-spacing: 1px;
