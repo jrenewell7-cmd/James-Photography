@@ -1,5 +1,6 @@
 README.md
-index.html
+website/
+    index.html
 <!DOCTYPE html>
 <html lang="en">
 <head>
