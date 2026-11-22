@@ -22,7 +22,7 @@ HOME PAGE
 .hero {
     height: 100vh;
     width: 100%;
-    background-image: url("images/hero.jpg");
+    background-image: url("images/website/hero.jpg");
     background-size: cover;
     background-position: center;
     position: relative;
