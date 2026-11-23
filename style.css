@@ -291,3 +291,34 @@ CONTACT
 .contact-item:hover {
     opacity: 0.5;
 }
+
+/* =====================
+SHOOTS
+===================== */
+
+.shoot-login {
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.shoot-login p {
+    font-size: 1.2rem;
+}
+
+.shoot-login input {
+
+    padding: 15px;
+    width: 300px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    margin-right: 10px;
+}
+
+.shoot-login button {
+
+    padding: 15px 30px;
+    border: none;
+    background: black;
+    color: white;
+    cursor: pointer;
+}
