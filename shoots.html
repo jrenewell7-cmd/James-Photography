@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Client Galleries | James Newell</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav class="top-nav">
+
+    <div class="logo-area">
+        <img src="images/logo.png" class="logo">
+        <a href="index.html">James Newell</a>
+    </div>
+
+    <div class="nav-links">
+
+        <a href="portfolio.html">Portfolio</a>
+
+        <a href="about.html">About</a>
+
+        <a href="contact.html">Contact</a>
+
+        <a href="shoots.html">Shoots</a>
+
+    </div>
+
+</nav>
+
+<h1 class="page-title">CLIENT GALLERIES</h1>
+
+<div class="shoot-login">
+
+    <p>
+        Enter your gallery password below.
+    </p>
+
+    <br>
+
+    <input
+        type="password"
+        id="galleryPassword"
+        placeholder="Password">
+
+    <button onclick="checkPassword()">
+        Enter
+    </button>
+
+</div>
+
+<footer class="site-footer">
+
+    <a href="mailto:YOUR_EMAIL">
+        Email
+    </a>
+
+    <span>|</span>
+
+    <a href="tel:YOUR_NUMBER">
+        Phone
+    </a>
+
+    <span>|</span>
+
+    <a href="https://instagram.com/YOUR_INSTAGRAM">
+        Instagram
+    </a>
+
+</footer>
+
+<script>
+
+function checkPassword() {
+
+let password =
+document.getElementById("galleryPassword").value;
+
+const galleries = {
+
+    "smith2026":
+    "clients/smith-family/gallery.html",
+
+    "rugby2026":
+    "clients/rugby-finals/gallery.html"
+
+};
+
+if (galleries[password]) {
+
+window.location.href =
+galleries[password];
+
+}
+
+else {
+
+alert("Incorrect Password");
+
+}
+
+}
+
+</script>
+
+</body>
+
+</html>
