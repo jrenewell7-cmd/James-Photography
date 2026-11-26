@@ -182,10 +182,8 @@ PORTFOLIO PAGE
 }
 
 .bottom-tile {
-    grid-column: span 2;
+    width: 100%;
 
-    width: 50%;
-    margin: auto;
 }
 
 /* =====================
